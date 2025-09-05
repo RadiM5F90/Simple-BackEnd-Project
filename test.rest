@@ -1,0 +1,23 @@
+// this file extension emulates a browser or a user  
+### TEST GET / WEBSITE
+GET http://localhost:8383/
+
+### TEST GET / DASHBOARD WEBSITE
+GET http://localhost:8383/dashboard
+
+
+### DATA ENDPOINT
+GET http://localhost:8383/api/data
+
+### DATA ENDPOINT FOR ADDING A USER
+POST http://localhost:8383/api/data 
+// when the server receives this request from the client emulator, it knows that it's looking for JSON
+Content-Type: application/json
+
+{
+    "name": "Random"
+}
+
+
+### DELETE ENDPOINT
+DELETE http://localhost:8383/api/data
