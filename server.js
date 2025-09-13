@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 
 // to make an app listen, we need to provide one parameter, the port
-// the port is a subdirectory of an IP address
+// the port is a subdirectory of an IP address   
 const PORT = 8383;
 
 
