@@ -11,7 +11,7 @@ const PORT = 8383;
 
 
 // defining some data
-let data = ["Radimir"];
+let data = ["Radimir"];   
 
 
 // Middleware -> it's a function that gets executed between the request and the response
